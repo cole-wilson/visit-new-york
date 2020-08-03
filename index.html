@@ -633,17 +633,17 @@
                     <form id="contactForm" data-toggle="validator" data-focus="false">
                         <div class="form-group">
                             <input type="text" class="form-control-input" id="cname" required>
-                            <label class="label-control" for="cname">Username</label>
+                            <label class="label-control" for="cname">Name</label>
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
                             <input type="text" class="form-control-input" id="cemail" required>
-                            <label class="label-control" for="cemail">Student ID</label>
+                            <label class="label-control" for="cemail">Email</label>
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
                             <textarea class="form-control-textarea" id="cmessage" required></textarea>
-                            <label class="label-control" for="cmessage">FILL THIS OUT WITH WHATEVER</label>
+                            <label class="label-control" for="cmessage">Why do you want to go to New York?</label>
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group checkbox">
@@ -651,7 +651,7 @@
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
-                            <button type="submit" onclick="contact()" class="form-control-submit-button">SUBMIT MESSAGE</button>
+                            <button type="submit" onclick="alert('Sorry, this service isn't available.');" class="form-control-submit-button">SUBMIT MESSAGE</button>
                         </div>
                         <div class="form-message">
                             <div id="cmsgSubmit" class="h3 text-center hidden"></div>
@@ -730,21 +730,7 @@
     
     	
     <!-- Scripts -->
-	<script type="text/javascript">
-		window.onload=function(){
-    		document.getElementById("nyny").play();
-  		}
-	</script>
-	<script>
-		function contact() {
-  			var name = document.getElementById("cname").value;
-			var age = document.getElementById("cemail").value;
-  			var $body = "lkjflkdsjflkdjflkdsjfklsdjflksdjflksdjflksdjflksdjflksdjflksdjlfksjdlkjlkjhghjklkjkkkkkkmkksdghjfdsfdsfhdsgfhdsjfdhdsjfdshfdsssssfdshfdshfdshfhdsfdshfhgdshfgdsfhdsjfjkhgkhkjlkjflkdsjflkdjflkdsjfklsdjflksdjflksdjflksdjflksdjflksdjflksdjlfksjdlkjlkjhghjklkjkkkkkkmkksdghjfdsfdsfhdsgfhdsjfdhdsjfdshfdsssssfdshfdshfdshfhdsfdshfhgdshfgdsfhdsjfjkhgkhkj%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A%0A";
-			var slink = "";
-			var link = slink.concat("mailto:wilsoncb@students.osd.wednet.edu?subject=BLOCKEDWEBSITETHINGY&body=",$body,age,name);
-			window.open(link);
-		}	
-	</script>
+	
     <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
     <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
     <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
